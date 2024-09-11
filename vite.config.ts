@@ -16,7 +16,7 @@ const viteConfig = defineConfig((mode: ConfigEnv) => {
 			visualizer(),
 		],
 		///配置路径
-		base:'/huacai/' ,
+		base:'/huacai',
 		hmr: true,
 		root: process.cwd(),
 		// 设置路径别名
