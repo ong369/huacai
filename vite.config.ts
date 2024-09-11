@@ -42,7 +42,7 @@ const viteConfig = defineConfig((mode: ConfigEnv) => {
 			port: 6688,
 		},
 		build: {
-			outDir: 'build', //指定输出路径（相对于 项目根目录).
+			outDir: 'docs', //指定输出路径（相对于 项目根目录).
 			
 			assetsDir: "./static", //指定生成静态资源的存放路径（相对于 build.outDir
 			/*
